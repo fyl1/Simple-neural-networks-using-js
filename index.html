@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple num</title>
+    <script src="./lib/sketchpad.js?v1.1"></script>
+    <script src="./dist/build.js"></script>
+  
+    <link rel="stylesheet" href="css/draw.min.css">
+<script>
+        console.log(window["nn"]);
+</script>
+</head>
+<body>
+    <section class="draw">
+        <div class="container">
+            <div class="draw__canvas"> <canvas class="canvas__fon"></canvas></div>   
+            <div class="draw__inner">
+                <h1>Simple example using neural networks using js</h1>
+                <p>
+                Draw a digit
+                </p>
+                <br/>
+                <div id="container">
+                    <canvas id="sketchpad" width="280" height="280"> browser is not supported.</canvas>
+                    <canvas id="thumbnail" width="28" height="28"> browser is not supported.</canvas>
+                    <div id="result"></div>
+                    <div style="clear: right"></div>
+                </div>
+                <button type="button" id="sketchClearButton">Clear</button>
+                <button type="button" id="sketchRecogniseButton">Recognise</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

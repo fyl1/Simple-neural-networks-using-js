@@ -1,0 +1,2 @@
+body{margin:10px;padding:10px;font-family:Arial;color:#008500}#container{position:relative;width:500px}#sketchpad{border:5px solid #008500}#thumbnail{border:1px solid #008500}#result{font-size:128pt;float:right;width:120px;height:280px;border:5px solid #008500;text-align:center;line-height:280px}.draw{position:relative;overflow:hidden}.draw__inner{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);z-index:10}
+/*# sourceMappingURL=draw.min.css.map */
